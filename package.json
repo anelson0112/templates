@@ -1,0 +1,26 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "templates for pages, HTML and Node",
+  "main": "serverTemplate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kickoff" : "nodemon serverTemplate.js",
+    "start" : "node serverTemplate.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anelson0112/templates.git"
+  },
+  "author": "anelson121",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anelson0112/templates/issues"
+  },
+  "homepage": "https://github.com/anelson0112/templates#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.11",
+    "nodemon": "^2.0.7"
+  }
+}
